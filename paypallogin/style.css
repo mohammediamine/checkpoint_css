@@ -1,0 +1,149 @@
+
+body{
+    margin: 0;
+}
+/* commentaire*/
+.main {
+    width: 100%;
+    height: 95vh;
+    background-color:#ffffff ;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.card {
+    width:30% ;
+    height:60% ;
+    background-color:#fafafa;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.897);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo {
+    width: 8rem;
+    height: 4rem;
+    margin-top: 1rem;
+}
+.card input{
+
+    margin-top: 1rem;
+    width: 70%;
+    height: 2rem;
+    border-radius: 0.8rem;
+    border: 1px #e7dfee solid;    ;
+  
+    /*text-align: center;*/
+}
+.card input:focus{
+
+    outline: none;
+
+    border-color: #0d20ec    ;
+}
+.card input::placeholder{
+
+    font-size: 1rem;
+}
+.next{
+    width: 70%;
+    height: 2.2rem;
+    margin-top: 2rem;
+    border-radius: 0.8rem;
+    background-color: #64b5f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; 
+}
+span {
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+}
+.next:hover {    
+    background-color: #578cb8;
+}
+.sign {
+    width: 70%;
+    height: 2.2rem;
+    margin-top: 2rem;
+    border-radius: 0.8rem;
+    background-color: #e2dede;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.sign:hover{
+    background-color: #cfcccc;
+}
+.diviseur{
+    width: 70%;
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.left,.right{
+
+    border-bottom: 1px solid rgb(212, 209, 209);
+    width: 45%; 
+}
+
+.diviseur span{
+    color: darkgrey;
+    font-size: 1rem;
+
+}
+.lang{
+margin-top: 1rem;
+width: 70%;
+display: flex;
+align-items: center;
+
+}
+.flag{
+    margin-left: .5rem;
+    width: 2rem ;
+    height: 1rem;
+    cursor: pointer;
+}
+.icon{
+    margin-left: .2rem;
+    width: rem ;
+    height: .5rem;
+    cursor: pointer;
+    transform: rotate(90deg);
+}
+.lang span{
+    margin-left: .5rem;
+    color: darkgrey;
+    font-size: .8rem;
+}
+.pipe{
+    height: .5rem;
+    margin-left: .5rem;
+    border-left: 1px black solid;
+}
+.footer{
+    width: 100%;
+    height: 5vh;
+    background-color: #f7f7f7;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.footer span{
+    margin-left: 1rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+    color: #000000;
+
+
+}
+.footer span:hover{
+    text-decoration: underline;
+}
